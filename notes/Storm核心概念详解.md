@@ -18,7 +18,7 @@
 
 ## 一、Storm核心概念
 
-<div align="center"> <img  src="../pictures/spout-bolt.png"/> </div>
+<div align="center"> <img  src="https://gitee.com/heibaiying/BigData-Notes/raw/master/pictures/spout-bolt.png"/> </div>
 
 ### 1.1  Topologies（拓扑）
 
@@ -38,7 +38,7 @@
 
 ### 1.5 Stream groupings（分组策略）
 
-<div align="center"> <img width="400px" src="../pictures/topology-tasks.png"/> </div>
+<div align="center"> <img width="400px" src="https://gitee.com/heibaiying/BigData-Notes/raw/master/pictures/topology-tasks.png"/> </div>
 
 `spouts` 和 `bolts` 在集群上执行任务时，是由多个 Task 并行执行 (如上图，每一个圆圈代表一个 Task)。当一个 Tuple 需要从 Bolt A 发送给 Bolt B 执行的时候，程序如何知道应该发送给 Bolt B 的哪一个 Task 执行呢？
 
@@ -80,7 +80,7 @@
 
 ## 二、Storm架构详解
 
-<div align="center"> <img  src="../pictures/Internal-Working-of-Apache-Storm.png"/> </div>
+<div align="center"> <img  src="https://gitee.com/heibaiying/BigData-Notes/raw/master/pictures/Internal-Working-of-Apache-Storm.png"/> </div>
 
 ### 2.1 Nimbus进程
 
@@ -132,7 +132,7 @@ Storm 集群的任务执行者 ，循环执行 Task 代码。主要功能如下�
 
 ### 2.6 并行度
 
-<div align="center"> <img  src="../pictures/relationships-worker-processes-executors-tasks.png"/> </div>
+<div align="center"> <img  src="https://gitee.com/heibaiying/BigData-Notes/raw/master/pictures/relationships-worker-processes-executors-tasks.png"/> </div>
 
 1 个 Worker 进程执行的是 1 个 Topology 的子集，不会出现 1 个 Worker 为多个 Topology 服务的情况，因此 1 个运行中的 Topology 就是由集群中多台物理机上的多个 Worker 进程组成的。1 个 Worker 进程会启动 1 个或多个 Executor 线程来执行 1 个 Topology 的 Component(组件，即 Spout 或 Bolt)。
 
@@ -157,3 +157,6 @@ Task 是组成 Component 的代码单元。Topology 启动后，1 个 Component 
 3. [Understanding the Parallelism of a Storm Topology](http://storm.apache.org/releases/1.2.2/Understanding-the-parallelism-of-a-Storm-topology.html)
 4. [Storm nimbus 单节点宕机的处理](https://blog.csdn.net/daiyutage/article/details/52049519)
 
+
+
+<div align="center"> <img  src="https://gitee.com/heibaiying/BigData-Notes/raw/master/pictures/weixin-desc.png"/> </div>

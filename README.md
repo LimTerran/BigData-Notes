@@ -2,7 +2,7 @@
 
 
 
-<div align="center"> <img width="414px" src="pictures/bigdata-notes-icon.png"/> </div>
+<div align="center"> <img width="444px" src="https://gitee.com/heibaiying/BigData-Notes/raw/master/pictures/bigdata-notes-icon.png"/> </div>
 <br/>
 
 **大数据入门指南**
@@ -11,18 +11,18 @@
 
 <table>
     <tr>
-      <th><img width="50px" src="pictures/hadoop.jpg"></th>
-      <th><img width="50px" src="pictures/hive.jpg"></th>
-      <th><img width="50px" src="pictures/spark.jpg"></th>
-      <th><img width="50px" src="pictures/storm.png"></th>
-      <th><img width="50px" src="pictures/flink.png"></th>
-      <th><img width="50px" src="pictures/hbase.png"></th>
-      <th><img width="50px" src="pictures/kafka.png"></th>
-      <th><img width="50px" src="pictures/zookeeper.jpg"></th>
-      <th><img width="50px" src="pictures/flume.png"></th>
-      <th><img width="50px" src="pictures/sqoop.png"></th>
-      <th><img width="50px" src="pictures/azkaban.png"></th>
-      <th><img width="50px" src="pictures/scala.jpg"></th>
+      <th><img width="50px" src="https://gitee.com/heibaiying/BigData-Notes/raw/master/pictures/hadoop.jpg"></th>
+      <th><img width="50px" src="https://gitee.com/heibaiying/BigData-Notes/raw/master/pictures/hive.jpg"></th>
+      <th><img width="50px" src="https://gitee.com/heibaiying/BigData-Notes/raw/master/pictures/spark.jpg"></th>
+      <th><img width="50px" src="https://gitee.com/heibaiying/BigData-Notes/raw/master/pictures/storm.png"></th>
+      <th><img width="50px" src="https://gitee.com/heibaiying/BigData-Notes/raw/master/pictures/flink.png"></th>
+      <th><img width="50px" src="https://gitee.com/heibaiying/BigData-Notes/raw/master/pictures/hbase.png"></th>
+      <th><img width="50px" src="https://gitee.com/heibaiying/BigData-Notes/raw/master/pictures/kafka.png"></th>
+      <th><img width="50px" src="https://gitee.com/heibaiying/BigData-Notes/raw/master/pictures/zookeeper.jpg"></th>
+      <th><img width="50px" src="https://gitee.com/heibaiying/BigData-Notes/raw/master/pictures/flume.png"></th>
+      <th><img width="50px" src="https://gitee.com/heibaiying/BigData-Notes/raw/master/pictures/sqoop.png"></th>
+      <th><img width="50px" src="https://gitee.com/heibaiying/BigData-Notes/raw/master/pictures/azkaban.png"></th>
+      <th><img width="50px" src="https://gitee.com/heibaiying/BigData-Notes/raw/master/pictures/scala.jpg"></th>
     </tr>
     <tr>
       <td align="center"><a href="#一hadoop">Hadoop</a></td>
@@ -43,11 +43,11 @@
 
 <div align="center">
 	<a href = "https://github.com/heibaiying/Full-Stack-Notes"> 
-	<img width="500px" src="pictures/full-stack-notes.png"/> 
+	<img width="150px" src="https://gitee.com/heibaiying/BigData-Notes/raw/master/pictures/weixin.jpg"/> 
 	</a> 
 </div>
+<div align="center"> <strong> 如果需要离线阅读，可以在公众号上发送 “bigdata” 获取《大数据入门指南》离线阅读版！ </strong> </div>
 
-<div align="center"> <strong> 有对前后台开发感兴趣的小伙伴，欢迎关注我的新仓库：<a  href = "https://github.com/heibaiying/Full-Stack-Notes"> Full-Stack-Notes</a> ! </strong> </div>
 <br/>
 
 ## :black_nib: 前  言
@@ -75,7 +75,7 @@
 6. [Hive 常用 DDL 操作](notes/Hive常用DDL操作.md)
 7. [Hive 分区表和分桶表](notes/Hive分区表和分桶表.md)
 8. [Hive 视图和索引](notes/Hive视图和索引.md)
-9. [Hive常用 DML 操作](notes/Hive常用DML操作.md)
+9. [Hive 常用 DML 操作](notes/Hive常用DML操作.md)
 10. [Hive 数据查询详解](notes/Hive数据查询详解.md)
 
 ## 三、Spark
@@ -137,7 +137,7 @@
 4. [HBase 集群环境搭建](notes/installation/HBase集群环境搭建.md)
 5. [HBase 常用 Shell 命令](notes/Hbase_Shell.md)
 6. [HBase Java API](notes/Hbase_Java_API.md)
-7. [Hbase 过滤器详解](notes/Hbase过滤器详解.md)
+7. [HBase 过滤器详解](notes/Hbase过滤器详解.md)
 8. [HBase 协处理器详解](notes/Hbase协处理器详解.md)
 9. [HBase 容灾与备份](notes/Hbase容灾与备份.md)
 10. [HBase的 SQL 中间层 —— Phoenix](notes/Hbase的SQL中间层_Phoenix.md)
@@ -207,7 +207,7 @@
 
 <div align="center">
 	<a href = "https://blog.csdn.net/m0_37809146"> 
-	<img width="200px" src="pictures/blog-logo.png"/> 
+	<img width="200px" src="https://gitee.com/heibaiying/BigData-Notes/raw/master/pictures/blog-logo.png"/> 
 	</a> 
 </div>
 <div align="center"> <a  href = "https://blog.csdn.net/m0_37809146"> 欢迎关注我的博客：https://blog.csdn.net/m0_37809146</a> </div>
